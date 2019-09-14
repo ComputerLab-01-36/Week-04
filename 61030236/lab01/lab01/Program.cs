@@ -12,11 +12,13 @@ namespace lab01
         {
             try
             {
-                Console.Write("Please enter value 1 :");
-                int val1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Please enter value 2 :");
-                int val2 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Answer = " + (val1 + val2));
+                Console.Write("Please Lastname :");
+                string Lastname = Convert.ToString(value: Console.ReadLine());
+                Console.Write("Please ID :");
+                int ID = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Please GPA :");
+                float GPA = Convert.ToUInt32(Console.ReadLine());
+                Console.WriteLine(value: "Answer = " + (Lastname + ID + GPA));
             }
             catch (Exception e)
             {
