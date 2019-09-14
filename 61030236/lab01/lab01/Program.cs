@@ -4,7 +4,9 @@ namespace lab01
 {
     class Program
     {
-        static void Main(string[] args)
+        public static double km { get; private set; }
+
+        private static void Main(string[] args)
         {
             const double lightSpeed = 186000d;   // miles per second
             Console.WriteLine("Light speed = {0} Mile Per second", lightSpeed);
@@ -15,6 +17,11 @@ namespace lab01
             double SunToEarthTimeOfLight = SunToEarthDistance / lightSpeed;  // miles
             Console.WriteLine("SunToEarthTimeOfLight = {0} seconds", SunToEarthTimeOfLight);
             Console.WriteLine("SunToEarthTimeOfLight = {0} minutes", SunToEarthTimeOfLight / 60d);
+
+
+
+
+
         }
     }
 }
