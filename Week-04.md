@@ -1035,6 +1035,7 @@ public class MathTest
 
 2. ``y = cos(x)``
 
-
+![](image/Capture1.PNG)
 
 3. ``y = tan(x)``
+
